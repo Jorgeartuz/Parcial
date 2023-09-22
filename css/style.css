@@ -1,0 +1,60 @@
+.divEncabezado{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.divEncabezado > div{
+    margin-left: 30px;
+    margin-right: 60px;
+
+}
+
+.divMenuP{
+    display: flex;
+}
+.divMenu{
+    display: flex;
+    text-align: center;
+    padding-right: 20px;
+
+}
+.divMenu > div{
+    
+    padding-right: 20px;
+
+}
+
+.divCentral{
+    display: flex;
+    margin-left: 80px;
+    margin-right: 60px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.divCentral > div{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.divFinal{
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+
+}
+
+.divFinal > div{
+    display: flex;
+    margin: 0px;
+    margin-bottom: 0px;
+    justify-content: space-around;
+}
+
+.div-Flex{
+    flex-direction: column;
+}
